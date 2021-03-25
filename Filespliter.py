@@ -1,4 +1,5 @@
 # Code Snippet to break large files into smaller ones
+
 """
 filetype supported: CSV
 filepath: path of the input file(Format:path\\filename.csv)
@@ -7,6 +8,7 @@ split_size: size which you what to break the fileinto(enter the value in bytes)
 Replace {path to directory} with the path to the directory where you what the split files to be stored
 (Format:path\\directoryname)
 """
+
 import pandas as pd
 import math
 import os
